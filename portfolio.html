@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<!--
+  Name: Snow - Minimal & Clean Portfolio HTML Template
+  Version: 1.0.1
+  Author: nK, unvab
+  Website: https://nkdev.info, http://unvab.com/
+  Purchase: https://nkdev.info
+  Support: https://nk.ticksy.com
+  License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+  Copyright 2017.
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Eleven Attribute | Portfolio</title>
+
+    <meta name="description" content="Eleven Attribute - Clean & Minimal Portfolio HTML template.">
+    <meta name="keywords" content="portfolio, clean, minimal, blog, template, portfolio website">
+    <meta name="author" content="nK">
+
+    <link rel="icon" type="image/png" href="assets/images/logo-favicon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- START: Styles -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="assets/css/combined.css">
+
+    <!-- Custom Portfolio Styles -->
+    <style>
+        .portfolio-item-location {
+            font-size: 0.85em;
+            color: #999;
+            margin-top: 3px;
+        }
+
+        .portfolio-item-status {
+            font-size: 0.75em;
+            font-weight: 600;
+            margin-top: 8px;
+            padding: 4px 10px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .status-completed {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-ongoing {
+            background: #cce5ff;
+            color: #004085;
+        }
+
+        .status-tendering {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-preliminary {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .nk-portfolio-item-info {
+            background: linear-gradient(135deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.65) 100%);
+        }
+
+        .nk-isotope-filter li {
+            position: relative;
+            padding: 8px 16px;
+            margin: 0 5px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .nk-isotope-filter li:hover {
+            background: rgba(0, 123, 255, 0.1);
+        }
+
+        .nk-isotope-filter li.active {
+            background: #007bff;
+            color: white;
+        }
+
+        .project-role {
+            font-size: 0.8em;
+            color: #ccc;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .nk-portfolio-item {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .nk-portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+    </style>
+    <!-- END: Styles -->
+
+
+
+
+</head>
+
+
+<body>
+
+
+    <header class="nk-header nk-header-opaque">
+        <!--
+        START: Navbar
+    -->
+        <nav class="nk-navbar nk-navbar-top">
+            <div class="container">
+                <div class="nk-nav-table">
+                    <a href="index.html" class="nk-nav-logo">
+                        <img src="assets/images/logo-main.png" alt="Eleven Attribute Limited" width="85" class="nk-nav-logo-onscroll">
+                        <img src="assets/images/logo-main.png" alt="Eleven Attribute Limited" width="85">
+                    </a>
+
+                    <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
+                        <li>
+                            <a href="index.html#about">About</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact">Contact</a>
+                        </li>
+                        <li class="active">
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="services-page.html">Services</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nk-nav nk-nav-right nk-nav-icons">
+                        <li class="single-icon hidden-lg-up">
+                            <a href="#" class="nk-navbar-full-toggle">
+                                <span class="nk-icon-burger">
+                                    <span class="nk-t-1"></span>
+                                    <span class="nk-t-2"></span>
+                                    <span class="nk-t-3"></span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END: Navbar -->
+
+    </header>
+
+
+
+
+    <!--
+    START: Navbar Mobile
+-->
+    <nav class="nk-navbar nk-navbar-full nk-navbar-align-center" id="nk-nav-mobile">
+        <div class="nk-navbar-bg">
+            <div class="bg-image" style="background-image: url('assets/images/bg-menu.jpg')"></div>
+        </div>
+        <div class="nk-nav-table">
+            <div class="nk-nav-row">
+                <div class="container">
+                    <div class="nk-nav-header">
+
+                        <div class="nk-nav-logo">
+                            <a href="index.html" class="nk-nav-logo">
+                                <img src="assets/images/logo-main.png" alt="Eleven Attribute Limited" width="85">
+                            </a>
+                        </div>
+
+                        <div class="nk-nav-close nk-navbar-full-toggle">
+                            <span class="nk-icon-close"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-nav-row-full nk-nav-row">
+                <div class="nano">
+                    <div class="nano-content">
+                        <div class="nk-nav-table">
+                            <div class="nk-nav-row nk-nav-row-full nk-nav-row-center nk-navbar-mobile-content">
+                                <ul class="nk-nav">
+                                    <!-- Here will be inserted menu from [data-mobile-menu="#nk-nav-mobile"] -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-nav-row">
+                <div class="container">
+                    <div class="nk-nav-social">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END: Navbar Mobile -->
+
+
+    <div class="nk-main">
+
+        <!-- Page Header -->
+        <div class="nk-gap-2"></div>
+        <div class="container">
+            <div class="text-center">
+                <h1 class="display-3">Our Portfolio</h1>
+                <p class="lead">Showcasing excellence in design, project management, and construction services across Abuja and beyond</p>
+            </div>
+        </div>
+        <div class="nk-gap-0.2"></div>
+
+
+        <div class="container">
+            <!-- START: Filter -->
+            <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+                <a href="#nk-toggle-filter">
+                    <span class="nk-icon-squares"></span>
+                </a>
+            </div>
+            <ul class="nk-isotope-filter">
+                <li class="active" data-filter="*">All Projects</li>
+                <li data-filter="Residential">Residential</li>
+                <li data-filter="Commercial">Commercial</li>
+                <li data-filter="Religious">Religious</li>
+                <li data-filter="Luxury">Luxury</li>
+                <li data-filter="Landscaping">Landscaping</li>
+            </ul>
+            <!-- END: Filter -->
+
+            <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols">
+
+                <!-- Holy Rosary Catholic Church -->
+                <div class="nk-isotope-item" data-filter="Religious">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/holy-rosary2-7-sm.jpg');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Holy Rosary Catholic Church</h2>
+                                <div class="portfolio-item-category">Religious Architecture</div>
+                                <div class="portfolio-item-location">📍 Wuse Zone 2, Abuja</div>
+                                <div class="project-role">🎯 Architectural Design & FCDA Approval</div>
+                                <div class="portfolio-item-status status-ongoing">🔄 Construction Ongoing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Chessville Corte Residential Estate -->
+                <div class="nk-isotope-item" data-filter="Residential">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/chessville1-4-sm.jpg');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Chessville Corte Estate</h2>
+                                <div class="portfolio-item-category">Residential Development</div>
+                                <div class="portfolio-item-location">📍 Kafe District, Abuja</div>
+                                <div class="project-role">Complete Design & Project Management</div>
+                                <div class="portfolio-item-status status-ongoing">🔄 Construction Ongoing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Knowledge Court Estate -->
+                <div class="nk-isotope-item" data-filter="Residential">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/knowledge-court2-5-sm.jpg');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Knowledge Court Estate</h2>
+                                <div class="portfolio-item-category">Residential Development</div>
+                                <div class="portfolio-item-location">📍 Airport Road, Abuja</div>
+                                <div class="project-role">Design & Project Management</div>
+                                <div class="portfolio-item-status status-tendering">Tendering Stage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- BUA Estate -->
+                <div class="nk-isotope-item" data-filter="Luxury">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/bua-estate1-9-sm.jpg');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">BUA Estate</h2>
+                                <div class="portfolio-item-category">Luxury Residential</div>
+                                <div class="portfolio-item-location">📍 Kado, Abuja</div>
+                                <div class="project-role">Project Management Team</div>
+                                <div class="portfolio-item-status status-ongoing">🔄 Construction Ongoing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 795 Corner Office Building -->
+                <div class="nk-isotope-item" data-filter="Commercial">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/795-corner-3-sm.jpg');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">795 Corner Office Building</h2>
+                                <div class="portfolio-item-category">Commercial</div>
+                                <div class="portfolio-item-location">📍 Jabi, Abuja</div>
+                                <div class="project-role">Architectural Design & BOQ</div>
+                                <div class="portfolio-item-status status-ongoing">🔄 Construction Ongoing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Barumark Estate Apartments -->
+                <div class="nk-isotope-item" data-filter="Residential">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/barumark-8-sm.png');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Barumark Estate Apartments</h2>
+                                <div class="portfolio-item-category">Residential</div>
+                                <div class="portfolio-item-location">📍 Wuye, Abuja</div>
+                                <div class="project-role">Design & Project Architecture</div>
+                                <div class="portfolio-item-status status-completed">✅ Completed</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Serviced Apartments Gwarimpa -->
+                <div class="nk-isotope-item" data-filter="Residential">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/gwarimpa-apartment-2-sm.png');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Serviced Apartments</h2>
+                                <div class="portfolio-item-category">Residential</div>
+                                <div class="portfolio-item-location">📍 Gwarimpa, Abuja</div>
+                                <div class="project-role">Complete Design & Consultancy</div>
+                                <div class="portfolio-item-status status-ongoing">Near Completion</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Terrace Apartments Dutse -->
+                <div class="nk-isotope-item" data-filter="Residential">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/dutse-apartments-6-sm.jpg');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Terrace Apartments</h2>
+                                <div class="portfolio-item-category">Residential</div>
+                                <div class="portfolio-item-location">📍 Dutse, Abuja</div>
+                                <div class="project-role">📐 Design & BOQ</div>
+                                <div class="portfolio-item-status status-ongoing">🔄 Construction Ongoing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terrace Apartments Maitama -->
+                <div class="nk-isotope-item" data-filter="Luxury">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/terrace-maitama.jpg');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Luxury Terrace Apartments</h2>
+                                <div class="portfolio-item-category">Luxury Residential</div>
+                                <div class="portfolio-item-location">📍 Maitama, Abuja</div>
+                                <div class="project-role">Preliminary Architectural Design</div>
+                                <div class="portfolio-item-status status-preliminary">📐 Design Stage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BUA Estate Landscaping -->
+                <div class="nk-isotope-item" data-filter="Landscaping">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/bua-estate2-9-sm.png');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">BUA Estate Landscaping</h2>
+                                <div class="portfolio-item-category">Landscaping</div>
+                                <div class="portfolio-item-location">📍 Kado, Abuja</div>
+                                <div class="project-role">🌳 Design & Execution</div>
+                                <div class="portfolio-item-status status-ongoing">🔄 Ongoing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High Rise Hotel Lagos -->
+                <div class="nk-isotope-item" data-filter="Commercial">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/high-rise-hotel.jpg');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">High Rise Hotel</h2>
+                                <div class="portfolio-item-category">Commercial</div>
+                                <div class="portfolio-item-location">📍 Ikoyi, Lagos</div>
+                                <div class="project-role">Preliminary Design</div>
+                                <div class="portfolio-item-status status-preliminary">📐 Design Stage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="nk-gap-4"></div>
+        </div>
+
+        <!-- Portfolio Statistics -->
+        <div class="nk-box bg-gray-1">
+            <div class="container">
+                <div class="nk-gap-3"></div>
+                <div class="row text-xs-center">
+                    <div class="col-md-3">
+                        <div class="nk-portfolio-stat">
+                            <div class="nk-portfolio-stat-number h2">12+</div>
+                            <div class="nk-portfolio-stat-text">Active Projects</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="nk-portfolio-stat">
+                            <div class="nk-portfolio-stat-number h2">800+</div>
+                            <div class="nk-portfolio-stat-text">Housing Units</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="nk-portfolio-stat">
+                            <div class="nk-portfolio-stat-number h2">5</div>
+                            <div class="nk-portfolio-stat-text">Project Categories</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="nk-portfolio-stat">
+                            <div class="nk-portfolio-stat-number h2">11+</div>
+                            <div class="nk-portfolio-stat-text">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-gap-3"></div>
+            </div>
+        </div>
+
+        <!-- START: Pagination -->
+        <div class="nk-pagination nk-pagination-center">
+            <a href="#" onclick="loadMoreProjects()">See More Projects</a>
+        </div>
+        <!-- END: Pagination -->
+
+
+
+        <!-- START: Footer -->
+        <footer class="nk-footer">
+            <div class="nk-footer-cont">
+                <div class="container text-xs-center">
+                    <div class="nk-footer-social">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nk-footer-text">
+                        <p>2024 &copy; Eleven Attribute Limited. All rights reserved.</p>
+                        <p>RC 1250937 | Design • Project Management • Construction Services</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END: Footer -->
+
+
+    </div>
+
+
+
+
+    <!-- START: Scripts -->
+
+    <script src="assets/js/combined.js"></script>
+
+    <!-- Custom Portfolio Styles -->
+    <style>
+        .nk-portfolio-header {
+            padding: 80px 0 40px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .portfolio-item-meta {
+            margin-top: 10px;
+            font-size: 0.8em;
+        }
+
+        .portfolio-item-meta span {
+            display: block;
+            margin: 5px 0;
+            padding: 2px 6px;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.2);
+        }
+
+        .status.completed {
+            background: rgba(40, 167, 69, 0.2);
+            color: #28a745;
+        }
+
+        .status.ongoing {
+            background: rgba(0, 123, 255, 0.2);
+            color: #007bff;
+        }
+
+        .status.tendering {
+            background: rgba(255, 193, 7, 0.2);
+            color: #ffc107;
+        }
+
+        .status.design {
+            background: rgba(108, 117, 125, 0.2);
+            color: #6c757d;
+        }
+
+        .status.near-completion {
+            background: rgba(23, 162, 184, 0.2);
+            color: #17a2b8;
+        }
+
+        .nk-portfolio-stat {
+            padding: 20px;
+        }
+
+        .nk-portfolio-stat-number {
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .nk-isotope-filter li {
+            margin: 5px;
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .nk-isotope-filter li:hover {
+            background: #007bff;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .nk-isotope-3-cols {
+                grid-template-columns: 1fr !important;
+            }
+            
+            .portfolio-item-meta span {
+                display: inline-block;
+                margin: 2px;
+            }
+        }
+    </style>
+
+    <!-- Custom Portfolio JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize portfolio filtering
+            const filterItems = document.querySelectorAll('.nk-isotope-filter li');
+            const portfolioItems = document.querySelectorAll('.nk-isotope-item');
+
+            filterItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    // Remove active class from all items
+                    filterItems.forEach(i => i.classList.remove('active'));
+                    // Add active class to clicked item
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    portfolioItems.forEach(portfolioItem => {
+                        if (filterValue === '*' || portfolioItem.getAttribute('data-filter').includes(filterValue)) {
+                            portfolioItem.style.display = 'block';
+                            portfolioItem.style.opacity = '1';
+                        } else {
+                            portfolioItem.style.display = 'none';
+                            portfolioItem.style.opacity = '0';
+                        }
+                    });
+                });
+            });
+
+            // Add hover effects
+            portfolioItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                    this.style.transition = 'all 0.3s ease';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+
+            // Count and display project statistics
+            updatePortfolioStats();
+        });
+
+        function updatePortfolioStats() {
+            const completedProjects = document.querySelectorAll('[data-filter*="Completed"]').length;
+            const ongoingProjects = document.querySelectorAll('[data-filter*="Residential"], [data-filter*="Commercial"]').length;
+            
+            console.log(`Portfolio Stats: ${completedProjects} completed, ${ongoingProjects} total projects`);
+        }
+
+        function loadMoreProjects() {
+            // Placeholder for loading more projects
+            alert('More projects coming soon! Contact us for our complete portfolio.');
+        }
+    </script>
+    
+    <!-- END: Scripts -->
+
+
+</body>
+
+</html>
